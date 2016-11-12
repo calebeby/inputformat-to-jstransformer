@@ -4,7 +4,7 @@ var outputFormatToTransformer = require('..');
 
 test('should return a list of applicable transformers', function () {
   var html = outputFormatToTransformer('html');
-  assert(html.includes('jstransformer-posthtml'));
+  assert(html.indexOf('jstransformer-posthtml') >= 0);
 });
 
 test('should return false when not found', function () {
@@ -14,5 +14,5 @@ test('should return false when not found', function () {
 
 test('should retrieve the dictionary', function () {
   assert(outputFormatToTransformer.dictionary['js']
-    .includes('jstransformer-babel'));
+    .indexOf('jstransformer-babel') >= 0);
 });
