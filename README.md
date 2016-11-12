@@ -14,17 +14,14 @@ Load the first available [JSTransformer](https://github.com/jstransformers/jstra
 
 ### `(outputFormat)`
 
-Returns the first package available to process the given `outputFormat`; `false` if no package is available.
+Returns an array of names of JSTransformers that output the given `outputFormat`; `false` if no package is available.
 
 ```js
 var jstransformer = require('jstransformer')
 var outputFormatToTransformer = require('outputformat-to-jstransformer')
 
-var md = outputFormatToTransformer('md')
-// => remarkable, markdown, markdown-it, marko, or supermarked
-
-jstransformer(md).render('# Hello World!').body
-// => '<h1>Hello World!</h1>'
+var html = outputFormatToTransformer('html')
+// => ["jstransformer-jade", "jstransformer-markdown-it", "jstransformer-marked", "jstransformer-marko", "jstransformer-megamark", ...]
 ```
 
 ### `.dictionary`
