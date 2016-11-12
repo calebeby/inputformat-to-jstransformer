@@ -18,9 +18,7 @@ npm.load(function (err) {
 
   // Set up logging.
   npm.on('log', console.log);
-
   npm.commands.install(modules, function (err, data) {
-
     if (err) {
       throw new Error(err);
     }
@@ -28,7 +26,6 @@ npm.load(function (err) {
     var dictionary = {};
 
     for (var i in list) {
-
       var name = list[i];
       var transformer = require('jstransformer-' + name);
       var format = transformer.outputFormat || name;
@@ -38,7 +35,7 @@ npm.load(function (err) {
         dictionary[format] = [];
       }
 
-      console.log(name + ':', format)
+      console.log(name + ':', format);
 
       // Add the package to the output format.
       dictionary[format].push('jstransformer-' + name);

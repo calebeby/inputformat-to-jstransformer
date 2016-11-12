@@ -21,7 +21,8 @@
   "scripts": {
     "build": "node build",
     "test": "node test",
-    "posttest": "semistandard"
+    "posttest": "semistandard",
+    "fixsemistandard": "semistandard --fix"
   },
   "engines": {
     "node": ">= 4"
