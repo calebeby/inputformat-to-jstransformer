@@ -1,7 +1,7 @@
 {
-  "name": "inputformat-to-jstransformer",
+  "name": "outputformat-to-jstransformer",
   "version": "1.1.8",
-  "description": "Load a JSTransformer from the provided inputFormat.",
+  "description": "Load a JSTransformer from the provided outputFormat.",
   "keywords": [
     "jstransformer"
   ],
@@ -28,11 +28,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jstransformers/inputformat-to-jstransformer.git"
+    "url": "https://github.com/calebeby/outputformat-to-jstransformer.git"
   },
   "author": {
-    "name": "JSTransformers Team",
-    "url": "http://github.com/orgs/jstransformers/people"
+    "name": "Caleb Eby",
+    "url": "http://github.com/calebeby"
   },
   "license": "MIT",
   "dependencies": {

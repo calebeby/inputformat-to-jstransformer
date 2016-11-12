@@ -2,541 +2,148 @@
   "absurd": [
     "jstransformer-absurd"
   ],
-  "absurdjs": [
-    "jstransformer-absurd"
-  ],
-  "analyze-css": [
-    "jstransformer-analyze-css"
-  ],
-  "atpl": [
-    "jstransformer-atpl",
-    "jstransformer-consolidate"
-  ],
-  "babel": [
-    "jstransformer-babel"
-  ],
-  "bless": [
-    "jstransformer-bless"
-  ],
-  "bliss": [
-    "jstransformer-bliss"
-  ],
-  "browserify": [
-    "jstransformer-browserify"
-  ],
-  "buble": [
-    "jstransformer-buble"
-  ],
-  "cdata": [
-    "jstransformer-cdata"
-  ],
-  "cdata-css": [
-    "jstransformer-cdata-css"
-  ],
-  "cdata-js": [
-    "jstransformer-cdata-js"
-  ],
-  "clean-css": [
-    "jstransformer-clean-css"
-  ],
-  "code": [
-    "jstransformer-prismjs"
-  ],
-  "coffee": [
-    "jstransformer-coffee-script",
-    "jstransformer-coffeekup"
-  ],
-  "coffee-script": [
-    "jstransformer-coffee-script"
-  ],
-  "coffeecup": [
-    "jstransformer-coffeecup"
-  ],
-  "coffeekup": [
-    "jstransformer-coffeekup"
-  ],
-  "commonmark": [
-    "jstransformer-commonmark"
-  ],
-  "cson": [
-    "jstransformer-cson"
-  ],
   "css": [
     "jstransformer-autoprefixer",
-    "jstransformer-bless",
-    "jstransformer-css",
+    "jstransformer-clean-css",
+    "jstransformer-css-beautify",
+    "jstransformer-css-whitespace",
     "jstransformer-jscss",
-    "jstransformer-jscss-lite",
+    "jstransformer-less",
     "jstransformer-myth",
+    "jstransformer-opalcss",
+    "jstransformer-pleeease",
     "jstransformer-postcss",
-    "jstransformer-rework"
-  ],
-  "css-beautify": [
-    "jstransformer-css-beautify"
-  ],
-  "css-whitespace": [
-    "jstransformer-css-whitespace"
-  ],
-  "cssmin": [
-    "jstransformer-clean-css"
-  ],
-  "dot": [
-    "jstransformer-consolidate",
-    "jstransformer-dot"
-  ],
-  "duo": [
-    "jstransformer-duo"
-  ],
-  "dust": [
-    "jstransformer-consolidate",
-    "jstransformer-dust"
-  ],
-  "earlgrey": [
-    "jstransformer-earlgrey"
-  ],
-  "eco": [
-    "jstransformer-consolidate",
-    "jstransformer-eco"
-  ],
-  "ect": [
-    "jstransformer-consolidate",
-    "jstransformer-ect"
-  ],
-  "eg": [
-    "jstransformer-earlgrey"
-  ],
-  "ejs": [
-    "jstransformer-consolidate",
-    "jstransformer-ejs",
-    "jstransformer-qejs"
-  ],
-  "engine": [
-    "jstransformer-engine"
-  ],
-  "envy-json": [
-    "jstransformer-envy-json"
-  ],
-  "es6": [
-    "jstransformer-babel",
-    "jstransformer-traceur"
-  ],
-  "es6-template": [
-    "jstransformer-es6-template"
-  ],
-  "es6-template-string": [
-    "jstransformer-es6-template-strings"
-  ],
-  "es6-template-strings": [
-    "jstransformer-es6-template-strings"
-  ],
-  "escape-html": [
-    "jstransformer-escape-html"
-  ],
-  "esformatter": [
-    "jstransformer-esformatter"
-  ],
-  "fest": [
-    "jstransformer-fest"
-  ],
-  "function": [
-    "jstransformer-function"
-  ],
-  "gotpl": [
-    "jstransformer-gotpl"
-  ],
-  "haml": [
-    "jstransformer-consolidate",
-    "jstransformer-haml",
-    "jstransformer-haml-coffee",
-    "jstransformer-hamljs"
-  ],
-  "haml-coffee": [
-    "jstransformer-consolidate",
-    "jstransformer-haml-coffee"
-  ],
-  "hamlc": [
-    "jstransformer-haml-coffee"
-  ],
-  "hamlet": [
-    "jstransformer-consolidate",
-    "jstransformer-hamlet"
-  ],
-  "hamljs": [
-    "jstransformer-hamljs"
-  ],
-  "handlebars": [
-    "jstransformer-consolidate",
-    "jstransformer-handlebars",
-    "jstransformer-mini-handlebars"
-  ],
-  "hbs": [
-    "jstransformer-gray-matter",
-    "jstransformer-handlebars",
-    "jstransformer-mini-handlebars"
-  ],
-  "highlight": [
-    "jstransformer-highlight",
-    "jstransformer-prismjs"
-  ],
-  "highlight.js": [
-    "jstransformer-highlight"
-  ],
-  "highlightjs": [
-    "jstransformer-highlight"
-  ],
-  "hogan": [
-    "jstransformer-consolidate",
-    "jstransformer-hogan"
-  ],
-  "html": [
-    "jstransformer-bliss",
-    "jstransformer-gray-matter",
-    "jstransformer-html-minifier",
-    "jstransformer-html2jade",
-    "jstransformer-jst",
-    "jstransformer-lodash",
-    "jstransformer-nunjucks",
-    "jstransformer-ractive",
-    "jstransformer-riotjs",
-    "jstransformer-to-markdown",
-    "jstransformer-toffee",
-    "jstransformer-verbatim"
-  ],
-  "html-beautify": [
-    "jstransformer-html-beautify"
-  ],
-  "html-minifier": [
-    "jstransformer-html-minifier"
-  ],
-  "html2jade": [
-    "jstransformer-html2jade"
-  ],
-  "htmling": [
-    "jstransformer-consolidate",
-    "jstransformer-htmling"
-  ],
-  "htmlmin": [
-    "jstransformer-html-minifier"
-  ],
-  "imba": [
-    "jstransformer-imba"
-  ],
-  "ini": [
-    "jstransformer-ini",
-    "jstransformer-toml"
-  ],
-  "j140": [
-    "jstransformer-j140"
-  ],
-  "jade": [
-    "jstransformer-consolidate",
-    "jstransformer-jade",
-    "jstransformer-pug"
-  ],
-  "jazz": [
-    "jstransformer-consolidate",
-    "jstransformer-jazz"
-  ],
-  "jqtpl": [
-    "jstransformer-consolidate",
-    "jstransformer-jqtpl"
-  ],
-  "js": [
-    "jstransformer-jscss",
-    "jstransformer-jscss-lite"
-  ],
-  "js-beautify": [
-    "jstransformer-js-beautify"
-  ],
-  "jscss": [
-    "jstransformer-jscss",
-    "jstransformer-jscss-lite"
-  ],
-  "jscss-lite": [
-    "jstransformer-jscss-lite"
-  ],
-  "json": [
-    "jstransformer-json"
-  ],
-  "jsrender": [
-    "jstransformer-jsrender"
-  ],
-  "jst": [
-    "jstransformer-jst"
-  ],
-  "jstransformer": [
-    "jstransformer-jstransformer"
-  ],
-  "jsx": [
-    "jstransformer-jsx"
-  ],
-  "just": [
-    "jstransformer-consolidate",
-    "jstransformer-just"
-  ],
-  "less": [
-    "jstransformer-less"
-  ],
-  "liquid": [
-    "jstransformer-consolidate"
-  ],
-  "liquor": [
-    "jstransformer-consolidate",
-    "jstransformer-liquor"
-  ],
-  "livescript": [
-    "jstransformer-livescript"
-  ],
-  "lodash": [
-    "jstransformer-consolidate",
-    "jstransformer-gray-matter",
-    "jstransformer-lodash"
-  ],
-  "ls": [
-    "jstransformer-livescript"
-  ],
-  "markdown": [
-    "jstransformer-commonmark",
-    "jstransformer-markdown",
-    "jstransformer-markdown-it",
-    "jstransformer-marked",
-    "jstransformer-megamark",
-    "jstransformer-remark",
-    "jstransformer-remarkable",
-    "jstransformer-rho",
-    "jstransformer-supermarked"
-  ],
-  "markdown-it": [
-    "jstransformer-markdown-it"
-  ],
-  "marked": [
-    "jstransformer-marked"
-  ],
-  "marko": [
-    "jstransformer-marko"
-  ],
-  "md": [
-    "jstransformer-commonmark",
-    "jstransformer-markdown",
-    "jstransformer-markdown-it",
-    "jstransformer-marked",
-    "jstransformer-megamark",
-    "jstransformer-mmd",
-    "jstransformer-remark",
-    "jstransformer-remarkable",
-    "jstransformer-rho",
-    "jstransformer-supermarked"
-  ],
-  "megamark": [
-    "jstransformer-megamark"
-  ],
-  "mhbs": [
-    "jstransformer-mini-handlebars"
-  ],
-  "microtemplate": [
-    "jstransformer-microtemplate"
-  ],
-  "mjml": [
-    "jstransformer-mjml"
-  ],
-  "mmd": [
-    "jstransformer-mmd"
-  ],
-  "mold": [
-    "jstransformer-mold"
-  ],
-  "mote": [
-    "jstransformer-consolidate",
-    "jstransformer-mote"
-  ],
-  "multimarkdown": [
-    "jstransformer-mmd"
-  ],
-  "mustache": [
-    "jstransformer-consolidate",
-    "jstransformer-gray-matter",
-    "jstransformer-mustache"
-  ],
-  "myth": [
-    "jstransformer-myth"
-  ],
-  "nunjucks": [
-    "jstransformer-consolidate",
-    "jstransformer-nunjucks"
-  ],
-  "octet": [
-    "jstransformer-octet"
-  ],
-  "opal": [
-    "jstransformer-opalcss"
-  ],
-  "opalcss": [
-    "jstransformer-opalcss"
-  ],
-  "pcss": [
-    "jstransformer-pleeease"
-  ],
-  "plates": [
-    "jstransformer-plates"
-  ],
-  "pleeease": [
-    "jstransformer-pleeease"
-  ],
-  "postcss": [
-    "jstransformer-postcss"
-  ],
-  "posthtml": [
-    "jstransformer-posthtml"
-  ],
-  "prism": [
-    "jstransformer-prismjs"
-  ],
-  "prismjs": [
-    "jstransformer-prismjs"
-  ],
-  "pug": [
-    "jstransformer-consolidate",
-    "jstransformer-pug"
-  ],
-  "purifycss": [
-    "jstransformer-purifycss"
-  ],
-  "qejs": [
-    "jstransformer-consolidate",
-    "jstransformer-qejs"
-  ],
-  "ractive": [
-    "jstransformer-consolidate",
-    "jstransformer-ractive"
-  ],
-  "react": [
-    "jstransformer-consolidate"
-  ],
-  "remark": [
-    "jstransformer-remark"
-  ],
-  "remarkable": [
-    "jstransformer-remarkable"
-  ],
-  "resin": [
-    "jstransformer-resin"
-  ],
-  "rework": [
-    "jstransformer-rework"
-  ],
-  "rho": [
-    "jstransformer-rho"
-  ],
-  "riotjs": [
-    "jstransformer-riotjs"
-  ],
-  "sass": [
-    "jstransformer-sass"
-  ],
-  "scss": [
-    "jstransformer-scss"
-  ],
-  "sheetify": [
-    "jstransformer-sheetify"
-  ],
-  "slm": [
-    "jstransformer-consolidate",
-    "jstransformer-slm"
-  ],
-  "string-template": [
-    "jstransformer-string-template"
-  ],
-  "styl": [
+    "jstransformer-purifycss",
+    "jstransformer-resin",
+    "jstransformer-rework",
+    "jstransformer-sass",
+    "jstransformer-scss",
+    "jstransformer-sheetify",
     "jstransformer-styl",
-    "jstransformer-stylus"
-  ],
-  "stylecow": [
-    "jstransformer-stylecow"
-  ],
-  "stylus": [
-    "jstransformer-stylus"
-  ],
-  "suitcss": [
+    "jstransformer-stylecow",
+    "jstransformer-stylus",
     "jstransformer-suitcss"
   ],
-  "supermarked": [
-    "jstransformer-supermarked"
-  ],
-  "svgo": [
-    "jstransformer-svgo"
-  ],
-  "sweet": [
-    "jstransformer-sweetjs"
-  ],
-  "sweetjs": [
-    "jstransformer-sweetjs"
-  ],
-  "swig": [
+  "html": [
+    "jstransformer-atpl",
+    "jstransformer-bliss",
+    "jstransformer-cdata",
+    "jstransformer-cdata-css",
+    "jstransformer-cdata-js",
+    "jstransformer-coffeecup",
+    "jstransformer-coffeekup",
+    "jstransformer-commonmark",
     "jstransformer-consolidate",
-    "jstransformer-swig"
-  ],
-  "templayed": [
-    "jstransformer-consolidate",
-    "jstransformer-templayed"
-  ],
-  "text": [
-    "jstransformer-jst"
-  ],
-  "to-markdown": [
-    "jstransformer-to-markdown"
-  ],
-  "toffee": [
-    "jstransformer-consolidate",
-    "jstransformer-toffee"
-  ],
-  "toml": [
-    "jstransformer-toml"
-  ],
-  "traceur": [
-    "jstransformer-traceur"
-  ],
-  "transparency": [
-    "jstransformer-transparency"
-  ],
-  "ts": [
-    "jstransformer-typescript"
-  ],
-  "twig": [
-    "jstransformer-consolidate",
-    "jstransformer-twig"
-  ],
-  "txt": [
-    "jstransformer-gray-matter"
-  ],
-  "typescript": [
-    "jstransformer-typescript"
-  ],
-  "uglify-js": [
-    "jstransformer-uglify-js"
-  ],
-  "underscore": [
-    "jstransformer-consolidate",
-    "jstransformer-underscore"
-  ],
-  "vash": [
-    "jstransformer-consolidate",
-    "jstransformer-vash"
-  ],
-  "wal": [
-    "jstransformer-walrus"
-  ],
-  "walrus": [
-    "jstransformer-consolidate",
-    "jstransformer-walrus"
-  ],
-  "webpack": [
-    "jstransformer-webpack"
-  ],
-  "whiskers": [
-    "jstransformer-consolidate",
+    "jstransformer-dot",
+    "jstransformer-dust",
+    "jstransformer-eco",
+    "jstransformer-ect",
+    "jstransformer-ejs",
+    "jstransformer-engine",
+    "jstransformer-es6-template",
+    "jstransformer-es6-template-strings",
+    "jstransformer-escape-html",
+    "jstransformer-fest",
+    "jstransformer-function",
+    "jstransformer-gotpl",
+    "jstransformer-haml",
+    "jstransformer-haml-coffee",
+    "jstransformer-hamlet",
+    "jstransformer-hamljs",
+    "jstransformer-handlebars",
+    "jstransformer-highlight",
+    "jstransformer-hogan",
+    "jstransformer-html-beautify",
+    "jstransformer-html-minifier",
+    "jstransformer-htmling",
+    "jstransformer-j140",
+    "jstransformer-jade",
+    "jstransformer-jazz",
+    "jstransformer-jqtpl",
+    "jstransformer-jscss-lite",
+    "jstransformer-jsrender",
+    "jstransformer-jst",
+    "jstransformer-jstransformer",
+    "jstransformer-just",
+    "jstransformer-liquor",
+    "jstransformer-lodash",
+    "jstransformer-markdown",
+    "jstransformer-markdown-it",
+    "jstransformer-marked",
+    "jstransformer-marko",
+    "jstransformer-megamark",
+    "jstransformer-microtemplate",
+    "jstransformer-mini-handlebars",
+    "jstransformer-mjml",
+    "jstransformer-mmd",
+    "jstransformer-mold",
+    "jstransformer-mote",
+    "jstransformer-mustache",
+    "jstransformer-nunjucks",
+    "jstransformer-octet",
+    "jstransformer-plates",
+    "jstransformer-posthtml",
+    "jstransformer-prismjs",
+    "jstransformer-pug",
+    "jstransformer-qejs",
+    "jstransformer-ractive",
+    "jstransformer-remark",
+    "jstransformer-remarkable",
+    "jstransformer-rho",
+    "jstransformer-riotjs",
+    "jstransformer-slm",
+    "jstransformer-string-template",
+    "jstransformer-supermarked",
+    "jstransformer-sweetjs",
+    "jstransformer-swig",
+    "jstransformer-templayed",
+    "jstransformer-toffee",
+    "jstransformer-transparency",
+    "jstransformer-twig",
+    "jstransformer-underscore",
+    "jstransformer-vash",
+    "jstransformer-verbatim",
+    "jstransformer-walrus",
     "jstransformer-whiskers"
   ],
-  "xml2js": [
+  "jade": [
+    "jstransformer-html2jade"
+  ],
+  "js": [
+    "jstransformer-babel",
+    "jstransformer-browserify",
+    "jstransformer-buble",
+    "jstransformer-coffee-script",
+    "jstransformer-duo",
+    "jstransformer-earlgrey",
+    "jstransformer-imba",
+    "jstransformer-js-beautify",
+    "jstransformer-jsx",
+    "jstransformer-livescript",
+    "jstransformer-traceur",
+    "jstransformer-typescript",
+    "jstransformer-uglify-js"
+  ],
+  "json": [
+    "jstransformer-analyze-css",
+    "jstransformer-bless",
+    "jstransformer-cson",
+    "jstransformer-css",
+    "jstransformer-envy-json",
+    "jstransformer-gray-matter",
+    "jstransformer-ini",
+    "jstransformer-json",
+    "jstransformer-toml",
+    "jstransformer-webpack",
     "jstransformer-xml2js"
+  ],
+  "jsx": [
+    "jstransformer-esformatter"
+  ],
+  "md": [
+    "jstransformer-to-markdown"
+  ],
+  "svg": [
+    "jstransformer-svgo"
   ]
 }

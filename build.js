@@ -20,25 +20,28 @@ npm.load(function (err) {
   npm.on('log', console.log);
 
   npm.commands.install(modules, function (err, data) {
+
     if (err) {
       throw new Error(err);
     }
+
     var dictionary = {};
+
     for (var i in list) {
+
       var name = list[i];
       var transformer = require('jstransformer-' + name);
-      var formats = transformer.inputFormats || [name];
+      var format = transformer.outputFormat || name;
 
-      for (var n in formats) {
-        var format = formats[n];
-        // Ensure the input format exists in the dictionary.
-        if (!dictionary[format]) {
-          dictionary[format] = [];
-        }
-
-        // Add the package to the input format.
-        dictionary[format].push('jstransformer-' + name);
+      // Ensure the output format exists in the dictionary.
+      if (!dictionary[format]) {
+        dictionary[format] = [];
       }
+
+      console.log(name + ':', format)
+
+      // Add the package to the output format.
+      dictionary[format].push('jstransformer-' + name);
     }
     var sorted = sortJson(dictionary);
     fs.writeFileSync('dictionary.json', JSON.stringify(sorted, null, 2));
