@@ -3,7 +3,7 @@
 Load the first available [JSTransformer](https://github.com/jstransformers/jstransformer) from the provided `outputFormat`.
 
 [![Build Status](https://img.shields.io/travis/calebeby/outputformat-to-jstransformer/master.svg)](https://travis-ci.org/jstransformers/outputformat-to-jstransformer)
-[![Dependency Status](https://img.shields.io/david/calebeby/outputformat-to-jstransformer.svg)](https://david-dm.org/jstransformers/outputformat-to-jstransformer)
+[![Dependency Status](https://img.shields.io/david/calebeby/outputformat-to-jstransformer.svg)](https://david-dm.org/calebeby/outputformat-to-jstransformer)
 [![NPM version](https://img.shields.io/npm/v/outputformat-to-jstransformer.svg)](https://www.npmjs.org/package/outputformat-to-jstransformer)
 
 ## Installation
